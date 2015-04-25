@@ -15,6 +15,7 @@
 		FACE7CDF1AEBF9B800673DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACE7CDE1AEBF9B800673DD8 /* Images.xcassets */; };
 		FACE7CE21AEBF9B800673DD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACE7CE01AEBF9B800673DD8 /* LaunchScreen.xib */; };
 		FACE7CEE1AEBF9B800673DD8 /* mototrackrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7CED1AEBF9B800673DD8 /* mototrackrTests.swift */; };
+		FACE7CFA1AEBFC7F00673DD8 /* image in Resources */ = {isa = PBXBuildFile; fileRef = FACE7CF91AEBFC7F00673DD8 /* image */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FACE7CE71AEBF9B800673DD8 /* mototrackrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mototrackrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACE7CEC1AEBF9B800673DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACE7CED1AEBF9B800673DD8 /* mototrackrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mototrackrTests.swift; sourceTree = "<group>"; };
+		FACE7CF91AEBFC7F00673DD8 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = image; path = Moto/image; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				FACE7CD71AEBF9B800673DD8 /* DataViewController.swift */,
 				FACE7CD91AEBF9B800673DD8 /* ModelController.swift */,
 				FACE7CDB1AEBF9B800673DD8 /* Main.storyboard */,
+				FACE7CF91AEBFC7F00673DD8 /* image */,
 				FACE7CDE1AEBF9B800673DD8 /* Images.xcassets */,
 				FACE7CE01AEBF9B800673DD8 /* LaunchScreen.xib */,
 				FACE7CD11AEBF9B800673DD8 /* Supporting Files */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACE7CDD1AEBF9B800673DD8 /* Main.storyboard in Resources */,
+				FACE7CFA1AEBFC7F00673DD8 /* image in Resources */,
 				FACE7CE21AEBF9B800673DD8 /* LaunchScreen.xib in Resources */,
 				FACE7CDF1AEBF9B800673DD8 /* Images.xcassets in Resources */,
 			);
