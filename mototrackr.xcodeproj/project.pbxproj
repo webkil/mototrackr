@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACE7CD41AEBF9B800673DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7CD31AEBF9B800673DD8 /* AppDelegate.swift */; };
+		FACE7CD61AEBF9B800673DD8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7CD51AEBF9B800673DD8 /* RootViewController.swift */; };
+		FACE7CD81AEBF9B800673DD8 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7CD71AEBF9B800673DD8 /* DataViewController.swift */; };
+		FACE7CDA1AEBF9B800673DD8 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7CD91AEBF9B800673DD8 /* ModelController.swift */; };
+		FACE7CDD1AEBF9B800673DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE7CDB1AEBF9B800673DD8 /* Main.storyboard */; };
+		FACE7CDF1AEBF9B800673DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACE7CDE1AEBF9B800673DD8 /* Images.xcassets */; };
+		FACE7CE21AEBF9B800673DD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACE7CE01AEBF9B800673DD8 /* LaunchScreen.xib */; };
+		FACE7CEE1AEBF9B800673DD8 /* mototrackrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7CED1AEBF9B800673DD8 /* mototrackrTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACE7CE81AEBF9B800673DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACE7CC61AEBF9B800673DD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACE7CCD1AEBF9B800673DD8;
+			remoteInfo = mototrackr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACE7CCE1AEBF9B800673DD8 /* mototrackr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mototrackr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE7CD21AEBF9B800673DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACE7CD31AEBF9B800673DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACE7CD51AEBF9B800673DD8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FACE7CD71AEBF9B800673DD8 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FACE7CD91AEBF9B800673DD8 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FACE7CDC1AEBF9B800673DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACE7CDE1AEBF9B800673DD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FACE7CE11AEBF9B800673DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FACE7CE71AEBF9B800673DD8 /* mototrackrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mototrackrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE7CEC1AEBF9B800673DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACE7CED1AEBF9B800673DD8 /* mototrackrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mototrackrTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACE7CCB1AEBF9B800673DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE7CE41AEBF9B800673DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACE7CC51AEBF9B800673DD8 = {
+			isa = PBXGroup;
+			children = (
+				FACE7CD01AEBF9B800673DD8 /* mototrackr */,
+				FACE7CEA1AEBF9B800673DD8 /* mototrackrTests */,
+				FACE7CCF1AEBF9B800673DD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACE7CCF1AEBF9B800673DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACE7CCE1AEBF9B800673DD8 /* mototrackr.app */,
+				FACE7CE71AEBF9B800673DD8 /* mototrackrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACE7CD01AEBF9B800673DD8 /* mototrackr */ = {
+			isa = PBXGroup;
+			children = (
+				FACE7CD31AEBF9B800673DD8 /* AppDelegate.swift */,
+				FACE7CD51AEBF9B800673DD8 /* RootViewController.swift */,
+				FACE7CD71AEBF9B800673DD8 /* DataViewController.swift */,
+				FACE7CD91AEBF9B800673DD8 /* ModelController.swift */,
+				FACE7CDB1AEBF9B800673DD8 /* Main.storyboard */,
+				FACE7CDE1AEBF9B800673DD8 /* Images.xcassets */,
+				FACE7CE01AEBF9B800673DD8 /* LaunchScreen.xib */,
+				FACE7CD11AEBF9B800673DD8 /* Supporting Files */,
+			);
+			path = mototrackr;
+			sourceTree = "<group>";
+		};
+		FACE7CD11AEBF9B800673DD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACE7CD21AEBF9B800673DD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACE7CEA1AEBF9B800673DD8 /* mototrackrTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACE7CED1AEBF9B800673DD8 /* mototrackrTests.swift */,
+				FACE7CEB1AEBF9B800673DD8 /* Supporting Files */,
+			);
+			path = mototrackrTests;
+			sourceTree = "<group>";
+		};
+		FACE7CEB1AEBF9B800673DD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACE7CEC1AEBF9B800673DD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACE7CCD1AEBF9B800673DD8 /* mototrackr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE7CF11AEBF9B800673DD8 /* Build configuration list for PBXNativeTarget "mototrackr" */;
+			buildPhases = (
+				FACE7CCA1AEBF9B800673DD8 /* Sources */,
+				FACE7CCB1AEBF9B800673DD8 /* Frameworks */,
+				FACE7CCC1AEBF9B800673DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mototrackr;
+			productName = mototrackr;
+			productReference = FACE7CCE1AEBF9B800673DD8 /* mototrackr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACE7CE61AEBF9B800673DD8 /* mototrackrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE7CF41AEBF9B800673DD8 /* Build configuration list for PBXNativeTarget "mototrackrTests" */;
+			buildPhases = (
+				FACE7CE31AEBF9B800673DD8 /* Sources */,
+				FACE7CE41AEBF9B800673DD8 /* Frameworks */,
+				FACE7CE51AEBF9B800673DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACE7CE91AEBF9B800673DD8 /* PBXTargetDependency */,
+			);
+			name = mototrackrTests;
+			productName = mototrackrTests;
+			productReference = FACE7CE71AEBF9B800673DD8 /* mototrackrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACE7CC61AEBF9B800673DD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alexandre Pierroz";
+				TargetAttributes = {
+					FACE7CCD1AEBF9B800673DD8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FACE7CE61AEBF9B800673DD8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FACE7CCD1AEBF9B800673DD8;
+					};
+				};
+			};
+			buildConfigurationList = FACE7CC91AEBF9B800673DD8 /* Build configuration list for PBXProject "mototrackr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACE7CC51AEBF9B800673DD8;
+			productRefGroup = FACE7CCF1AEBF9B800673DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACE7CCD1AEBF9B800673DD8 /* mototrackr */,
+				FACE7CE61AEBF9B800673DD8 /* mototrackrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACE7CCC1AEBF9B800673DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE7CDD1AEBF9B800673DD8 /* Main.storyboard in Resources */,
+				FACE7CE21AEBF9B800673DD8 /* LaunchScreen.xib in Resources */,
+				FACE7CDF1AEBF9B800673DD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE7CE51AEBF9B800673DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACE7CCA1AEBF9B800673DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE7CD61AEBF9B800673DD8 /* RootViewController.swift in Sources */,
+				FACE7CDA1AEBF9B800673DD8 /* ModelController.swift in Sources */,
+				FACE7CD81AEBF9B800673DD8 /* DataViewController.swift in Sources */,
+				FACE7CD41AEBF9B800673DD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE7CE31AEBF9B800673DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE7CEE1AEBF9B800673DD8 /* mototrackrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACE7CE91AEBF9B800673DD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACE7CCD1AEBF9B800673DD8 /* mototrackr */;
+			targetProxy = FACE7CE81AEBF9B800673DD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACE7CDB1AEBF9B800673DD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE7CDC1AEBF9B800673DD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACE7CE01AEBF9B800673DD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE7CE11AEBF9B800673DD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACE7CEF1AEBF9B800673DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACE7CF01AEBF9B800673DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACE7CF21AEBF9B800673DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mototrackr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACE7CF31AEBF9B800673DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mototrackr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACE7CF51AEBF9B800673DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mototrackrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mototrackr.app/mototrackr";
+			};
+			name = Debug;
+		};
+		FACE7CF61AEBF9B800673DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mototrackrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mototrackr.app/mototrackr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACE7CC91AEBF9B800673DD8 /* Build configuration list for PBXProject "mototrackr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE7CEF1AEBF9B800673DD8 /* Debug */,
+				FACE7CF01AEBF9B800673DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACE7CF11AEBF9B800673DD8 /* Build configuration list for PBXNativeTarget "mototrackr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE7CF21AEBF9B800673DD8 /* Debug */,
+				FACE7CF31AEBF9B800673DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACE7CF41AEBF9B800673DD8 /* Build configuration list for PBXNativeTarget "mototrackrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE7CF51AEBF9B800673DD8 /* Debug */,
+				FACE7CF61AEBF9B800673DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACE7CC61AEBF9B800673DD8 /* Project object */;
+}
