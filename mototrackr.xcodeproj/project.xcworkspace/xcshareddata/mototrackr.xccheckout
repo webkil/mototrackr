@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>424B8D38-E4B0-4A1B-A5F4-368E7A39EDFC</string>
+=======
+	<string>C920CBB8-2C71-49CE-8F61-1A9E81160893</string>
+>>>>>>> origin/master
 	<key>IDESourceControlProjectName</key>
 	<string>mototrackr</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
