@@ -13,7 +13,10 @@ class DataViewController: UIViewController {
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: AnyObject?
 
-
+    @IBAction func unwindToViewController (sender: UIStoryboardSegue){
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,11 +29,7 @@ class DataViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        if let obj: AnyObject = dataObject {
-            self.dataLabel!.text = obj.description
-        } else {
-            self.dataLabel!.text = ""
-        }
+      
     }
 
 

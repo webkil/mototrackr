@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>424B8D38-E4B0-4A1B-A5F4-368E7A39EDFC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mototrackr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15166F39B8A3369B32069982B8B7F8C3FFA27AAA</key>
+		<string>https://github.com/webkil/mototrackr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mototrackr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15166F39B8A3369B32069982B8B7F8C3FFA27AAA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/webkil/mototrackr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15166F39B8A3369B32069982B8B7F8C3FFA27AAA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15166F39B8A3369B32069982B8B7F8C3FFA27AAA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mototrackr</string>
+		</dict>
+	</array>
+</dict>
+</plist>
